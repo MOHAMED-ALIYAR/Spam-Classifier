@@ -81,7 +81,7 @@ def img(image_file):
     """,
         unsafe_allow_html=True
     )
-img('Images/bg.jpg')
+img('bg.jpeg')
 
 input_sms = st.text_area("Enter the message")
 
