@@ -64,7 +64,7 @@ mnb = MultinomialNB()
 mnb.fit(X_train,y_train)
 
 
-st.title("Email/SMS Spam Classifier")
+st.title("Spam Message Classifier")
 
 input_sms = st.text_area("Enter the message")
 
