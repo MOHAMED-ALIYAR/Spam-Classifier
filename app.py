@@ -7,11 +7,6 @@ import nltk
 from nltk.stem.porter import PorterStemmer
 import nltk
 
-
-from sklearn.model_selection import train_test_split
-X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2,random_state=2)
-
-
 nltk.download('punkt')
 nltk.download('stopwords')
 
@@ -56,7 +51,7 @@ if st.button('Predict'):
     # 2. vectorize
     vector_input = tfidf.transform([transformed_sms])
     # 3. predict
-    model.fit(X_train,y_train)
+    model.fit(vector_input)
     result = model.predict(vector_input)[0]
     # 4. Display
     if result == 1:
