@@ -61,7 +61,7 @@ from sklearn.model_selection import train_test_split
 X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2,random_state=2)
 
 mnb = MultinomialNB()
-
+mnb.fit(X_train,y_train)
 
 
 st.title("Email/SMS Spam Classifier")
