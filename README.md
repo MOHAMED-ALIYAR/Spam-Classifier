@@ -1,4 +1,4 @@
-
+App link:https://mohamed-aliyar-spam-classifier-app-dc5b81.streamlit.app/
 # Spam Message Classifier
 
 Spam filters are designed to identify emails or messages that attackers or marketers use to send unwanted or dangerous content. They use specific filtering methods to identify the content of emails or their senders and then flag the messages from sms and email .
